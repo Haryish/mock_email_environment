@@ -1,0 +1,4 @@
+Transaction ID,Email,Amount,Transaction Type,Merchant,Description,Date
+21,user@example.com,1501.50,debit,N/A,Online Purchase,2024-12-11 17:50:51
+debit,merchant@spfa.com,user@example.com,2024-12-11 20:12:10,<1733947934.243316@merchant.com>,"Dear User, Your account has been debited with 1501.50."
+,merchant@spfa.com,user@example.com,2024-12-11 20:37:33,<1733949454.083006@merchant.com>,"Dear User, Your account has been ed with 1501.50."

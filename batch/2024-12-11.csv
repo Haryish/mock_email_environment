@@ -1,0 +1,3 @@
+Transaction ID,Email,Amount,Transaction Type,Description,Date
+20,user@example.com,1500.50,debit,Online Purchase,2024-12-11 17:49:53
+21,user@example.com,1501.50,debit,Online Purchase,2024-12-11 17:50:51

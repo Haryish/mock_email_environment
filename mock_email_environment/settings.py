@@ -113,12 +113,12 @@ USE_I18N = True
 
 USE_TZ = True
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # For testing
-EMAIL_HOST = 'smtp.example.com'  # Replace with your SMTP server
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'merchant@spfa.com'
-EMAIL_HOST_PASSWORD = 'yourpassword'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'localhost'
+EMAIL_PORT = 1025
+EMAIL_USE_TLS = False
+EMAIL_USE_SSL = False
+
 
 
 # Static files (CSS, JavaScript, Images)

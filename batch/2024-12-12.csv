@@ -1,0 +1,7 @@
+transaction_id,amount,transaction_type,description,date
+32,1501.50,debit,Online Purchase,2024-12-11 20:12:10
+33,1501.50,debit,Online Purchase,2024-12-11 20:15:21
+34,1501.50,debit,Online Purchase,2024-12-11 20:17:24
+40,1501.50,,Online Purchase,2024-12-11 20:37:33
+41,1501.50,credit,Online Purchase,2024-12-11 20:38:39
+42,500.00,debit,Online Purchase,2024-12-11 20:39:45
