@@ -1,0 +1,11 @@
+Subject,From,To,Date,Message-ID,Body
+Transaction Notification: Debit,merchant@spfa.com,user@example.com,"Wed, 11 Dec 2024 22:22:31 +0530",N/A,"Dear User,
+
+Your account has been debited with 1500.50.
+
+Details:
+Description: Online Purchase
+Amount: 1500.50
+
+Thank you for using our service.
+"
