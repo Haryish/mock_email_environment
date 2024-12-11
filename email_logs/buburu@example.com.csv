@@ -1,3 +1,23 @@
 subject,from,to,date,message_id,body
 credit,merchant@spfa.com,buburu@example.com,2024-12-11 20:38:39,<1733949519.340566@merchant.com>,"Dear User, Your account has been credited with 1501.50."
 debit,merchant@spfa.com,buburu@example.com,2024-12-11 20:39:45,<1733949585.477971@merchant.com>,"Dear User, Your account has been debited with 500.00."
+debit,merchant@spfa.com,buburu@example.com,2024-12-11 20:41:53,<1733949713.863136@merchant.com>,"Dear User, Your account has been debited with 1131.00."
+debit,merchant@spfa.com,buburu@example.com,2024-12-11 21:06:28,<1733951190.585789@merchant.com>,
+debit,merchant@spfa.com,buburu@example.com,2024-12-11 21:13:48,<1733951631.000198@merchant.com>,"Dear User,
+
+Your account has been debited with 1131.00.
+Description: Purchase at Myntra Fashion
+
+Thank you for using our service.
+
+Thanks,
+Mynthra team"
+Transaction Notification: Purchase at myntra fashion,merchant@spfa.com,buburu@example.com,2024-12-11 21:17:35,<1733951857.08154@merchant.com>,"Dear User,
+
+Your account has been debited with 1131.00.
+Description: Purchase at Myntra Fashion
+
+Thank you for using our service.
+
+Thanks,
+Mynthra team"

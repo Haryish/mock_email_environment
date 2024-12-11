@@ -5,3 +5,24 @@ transaction_id,amount,transaction_type,description,date
 40,1501.50,,Online Purchase,2024-12-11 20:37:33
 41,1501.50,credit,Online Purchase,2024-12-11 20:38:39
 42,500.00,debit,Online Purchase,2024-12-11 20:39:45
+43,1131.00,debit,Purchase at Myntra Fashion,2024-12-11 20:41:53
+44,1131.00,debit,Purchase at Myntra Fashion,2024-12-11 20:53:57
+46,1131.00,debit,Purchase at Myntra Fashion,2024-12-11 21:06:28
+47,1131.00,debit,Purchase at Myntra Fashion,2024-12-11 21:13:48,"Dear User,
+
+Your account has been debited with 1131.00.
+Description: Purchase at Myntra Fashion
+
+Thank you for using our service.
+
+Thanks,
+Mynthra team"
+48,Transaction Notification: Purchase at myntra fashion,1131.00,debit,Purchase at Myntra Fashion,2024-12-11 21:17:35,"Dear User,
+
+Your account has been debited with 1131.00.
+Description: Purchase at Myntra Fashion
+
+Thank you for using our service.
+
+Thanks,
+Mynthra team"

@@ -24,12 +24,21 @@ def create_transaction(request):
     )
 
     # Prepare email content
-    subject = f"Transaction Notification: {transaction_type.capitalize()}"
+    subject = f"Transaction Notification: {description.capitalize()}"
+    # body = (
+    #     f"Dear User,\n\n"
+    #     f"Your account has been {transaction_type}ed with {amount}.\n"
+    #     f"Description: {description}\n\n"
+    #     f"Thank you for using our service."
+    # )
+
     body = (
         f"Dear User,\n\n"
         f"Your account has been {transaction_type}ed with {amount}.\n"
         f"Description: {description}\n\n"
-        f"Thank you for using our service."
+        f"Thank you for using our service.\n\n"
+        f"Thanks,\n"
+        f"Mynthra team"
     )
 
     # Send email
@@ -48,10 +57,12 @@ def create_transaction(request):
     EmailLog.objects.create(email=email, subject=subject, body=body)
     write_to_csv(email, {
         "transaction_id": transaction.id,
+        "subject": subject,
         "amount": amount,
         "transaction_type": transaction_type,
         "description": description,
         "date": transaction.created_at.strftime('%Y-%m-%d %H:%M:%S'),
+        "body": body  # Pass the body as part of the transaction data
     })
 
     return Response({"message": "Transaction recorded and email sent successfully."})

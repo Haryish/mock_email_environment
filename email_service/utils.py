@@ -62,12 +62,12 @@ def write_to_csv(email, transaction_data):
     # Now, log email details in email_logs folder
     email_log_file_path = os.path.join(LOG_DIR, f"{email}.csv")
     email_data = {
-        "subject": transaction_data.get("transaction_type"),
+        "subject": transaction_data.get("subject"),
         "from": "merchant@spfa.com",
         "to": email,
         "date": transaction_data.get("date"),
         "message_id": f"<{datetime.now().timestamp()}@merchant.com>",
-        "body": f"Dear User, Your account has been {transaction_data.get('transaction_type')}ed with {transaction_data.get('amount')}."
+        "body": transaction_data.get("body")
     }
 
     # Check if the email log file exists, if not, create it with headers
